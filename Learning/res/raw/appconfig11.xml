@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question111" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title=" >" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title=">> " value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title=">>>" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question112" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="73" value="0">
+        <tip><![CDATA[Wrong.We are not allowed to do addition operation on cin.]]></tip>
+      </choice>
+      <choice title=" your value + 4" value="0">
+        <tip><![CDATA[Wrong. We are not allowed to do addition operation on cin.]]></tip>
+      </choice>
+      <choice title=" Error " value="1">
+        <tip><![CDATA[Correct.We are not allowed to do addition operation on cin.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question113" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title=" a file in disk" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="directory path" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="directory in disk" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question114" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="clear()" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title=" flush()" value="1">
+        <tip><![CDATA[Correct.]]></tip>
+      </choice>
+      <choice title="close()" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<!-- <question title="question115" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="a_file.out(Output);" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title=" a_file= Output;" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="a_file &#60;&#60; Output;" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+    </question>
+<question title="question116" type="choice" mandatory="true" category="" key="Q6">
+<choices>
+      <choice title=" FileWriter fw = new FileWriter(myFile.txt);" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title=" FileWriter fw = new FileWriter( myFile.txt, true);" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="FileWriter fw = new FileWriter(myFile.txt, false);" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+  </questions>

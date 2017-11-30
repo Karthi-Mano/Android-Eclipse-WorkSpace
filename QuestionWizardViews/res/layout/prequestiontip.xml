@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainPreQuestionTipLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:paddingBottom="65sp"
+    android:paddingTop="10sp" >
+
+    <LinearLayout
+        android:id="@+id/preTipLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp" >
+
+        <android.webkit.WebView
+            android:id="@+id/wbPreTip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:layerType="software"
+            android:scrollbars="none" >
+        </android.webkit.WebView>
+
+        <ProgressBar
+            android:id="@+id/pbPreTip"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" >
+        </ProgressBar>
+    </LinearLayout>
+
+</RelativeLayout>

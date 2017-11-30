@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.stmarys.learning.TutorialScreenActivity" >
+
+     <WebView
+        android:id="@+id/tutorialWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.86"
+        />
+ 
+	<LinearLayout
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="0.2">
+	<Button
+	    android:id="@+id/cppButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/cpplogo"
+        android:layout_marginRight="30dp"/>
+	
+	<Button
+	    android:id="@+id/javaButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/javalogo"
+        android:layout_marginRight="30dp"/>
+	
+	<Button
+	    android:id="@+id/csharpButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp" 
+        android:background="@drawable/csharplogo"/>
+	</LinearLayout>
+	<Button
+	    android:id="@+id/quizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:textSize="25sp" 
+        android:text="Quiz"
+        android:textStyle="bold"
+        android:background="@drawable/button1"/>
+	</LinearLayout>

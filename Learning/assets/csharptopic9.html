@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+<h3>Example of Class and Object</h3>
+using System;
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car car;
+            car = new Car("Red");
+            Console.WriteLine(car.Describe());
+            car = new Car("Green");
+            Console.WriteLine(car.Describe());
+            Console.ReadLine();
+        }
+    }
+
+    class Car
+    {
+        private string color;
+        public Car(string color)
+        {
+            this.color = color;
+        }
+        public string Describe()
+        {
+            return "This car is " + Color;
+        }
+        public string Color
+        {
+            get { return color; }
+            set { color = value; }
+        }
+    }
+}
+</pre>
+</body>
+</html>

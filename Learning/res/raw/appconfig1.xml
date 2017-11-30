@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <question title="question11" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="Array " value="0">
+        <tip><![CDATA[Wrong.The correct answer is "int"]]></tip>
+      </choice>
+      <choice title="int" value="1">
+        <tip><![CDATA[Correct.]]></tip>
+      </choice>
+      <choice title=" for" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "int"]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <question title="question12" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="Integer" value="0">
+        <tip><![CDATA[Wrong.The term built-in means that they are pre-defined in C++ and can be used directly in a program]]></tip>
+      </choice>
+      <choice title=" Array" value="0">
+        <tip><![CDATA[Wrong.The term built-in means that they are pre-defined in C++ and can be used directly in a program]]></tip>
+      </choice>
+      <choice title="String" value="1">
+        <tip><![CDATA[Correct.The term built-in means that they are pre-defined in C++ and can be used directly in a program]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <question title="question13" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="Interface" value="1">
+        <tip><![CDATA[Correct. "interface" is the valid keyword]]></tip>
+      </choice>
+      <choice title=" string" value="0">
+        <tip><![CDATA[Wrong."String" is the valid keyword.]]></tip>
+      </choice>
+      <choice title="Float" value="0">
+        <tip><![CDATA[Wrong."float" is the valid keyword.]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <question title="question14" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="System.Object " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="System.ValueType" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title=" System.Base" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <!--  <question title="question15" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="  True" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="False" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title=" Unevaluatable" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+ </questions>

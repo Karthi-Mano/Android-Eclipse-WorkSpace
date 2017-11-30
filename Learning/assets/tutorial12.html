@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<p>&bull; An exception is a problem that arises during the execution of a program.</p>
+<p>&bull; A exception is a response to an exceptional circumstance that arises while a program is running, such as an attempt to divide by zero.</p>
+<p>&bull; Exceptions provide a way to transfer control from one part of a program to another.</p>
+<p>&bull; Exception handling is built upon three keywords: try, catch, and throw.</p>
+<h4>throw:</h4> A program throws an exception when a problem shows up. This is done using a throw keyword.
+<h4>catch:</h4> A program catches an exception with an exception handler at the place in a program where you want to handle the problem. The catch keyword indicates the catching of an exception.
+<h4>try:</h4> A try block identifies a block of code for which particular exceptions will be activated. It's followed by one or more catch blocks.
+<h4>Throwing Exceptions:</h4>
+<p>&bull;Exceptions can be thrown anywhere within a code block using throw statements. The operand of the throw statements determines a type for the exception and can be any expression and the type of the result of the expression determines the type of exception thrown.</p>
+<p>&bull;Following is an example of throwing an exception when dividing by zero condition occurs:</p>
+<pre>
+double division(int a, int b) {
+   if( b == 0 ) {
+      throw "Division by zero condition!";
+   }
+   return (a/b);
+}
+</pre>
+<h4>Catching Exceptions:</h4>
+<p>&bull;The catch block following the try block catches any exception. You can specify what type of exception you want to catch and this is determined by the exception declaration that appears in parentheses following the keyword catch.</p>
+<pre>
+try {
+   // protected code
+}catch( ExceptionName e ) {
+   // code to handle ExceptionName exception
+}
+</pre>
+<h4> Below flow chart explains the exception handling</h4>
+<p> style="text-align:center;"><img src ="topic12.png"></p>																			
+</body>
+</html>

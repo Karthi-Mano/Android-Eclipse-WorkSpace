@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question121" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="Remove error-handling code from the software's main line of code." value="0">
+        <tip><![CDATA[Wrong. The correct answer is both A and B]]></tip>
+      </choice>
+      <choice title="An exception that occurs in a function can be handled anywhere in the function call stack. " value="0">
+        <tip><![CDATA[Wrong. The correct answer is both A and B]]></tip>
+      </choice>
+      <choice title=" Both " value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question122" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="try" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="finally" value="0">
+        <tip><![CDATA[Wrong.]]></tip>
+      </choice>
+      <choice title="throw" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question123" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="try " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="finally" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="throw " value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question124" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="Compiler" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="CLR" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="Linker" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<!-- <question title="question125" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="No. No methods of PrintWriter throw exceptions." value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="Yes. It throws an IOException." value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Yes. It throws an PrintException" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question126" type="choice" mandatory="true" category="" key="Q6">
+    <choices>
+      <choice title="Compiler Error" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Compiles and runs fine" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Compiles fine but throws ArithmeticException exception" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+  </questions>

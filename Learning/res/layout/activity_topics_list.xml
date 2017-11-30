@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/backgroundhome"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.stmarys.learning.TopicsListActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="70dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/topicButton0"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topicunlocked"
+                android:text="Main Function,NameSpaces,comments"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton1"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Data types and Expressions"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton2"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Input and Output"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton3"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Flow of Controls"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton4"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Arrays and Multi Dimensional arrays"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton5"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Operators"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton6"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Functions"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton7"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Pointers"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton8"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Strings"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton9"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Classes and Objects"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton10"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="OOPs Concept"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton11"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Files I/O operations"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/topicButton12"
+                android:layout_width="300dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/topiclocked"
+                android:text="Exception Handling"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

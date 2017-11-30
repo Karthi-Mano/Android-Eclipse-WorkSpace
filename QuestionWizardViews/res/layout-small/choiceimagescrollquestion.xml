@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="top|center_horizontal" android:id="@+id/mainChoiceImageScrollQuestionLayout" android:paddingBottom="10dp">
+    <TextView android:text="TextView" android:layout_width="fill_parent" android:paddingLeft="5sp" android:paddingRight="5sp" android:layout_height="wrap_content" android:id="@+id/tvTitle" android:gravity="center" android:height="80sp"></TextView>
+    <ImageView android:src="@drawable/icon" android:paddingLeft="6sp" android:paddingRight="6sp" android:id="@+id/imgChImageScroll" android:layout_width="wrap_content" android:layout_height="80dp"></ImageView>
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/scrollChoicesLayout" android:paddingTop="8sp" android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical" android:paddingBottom="52sp">
+        <LinearLayout android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/choicesLayout" android:paddingLeft="5sp" android:paddingRight="5sp">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/choiceLayout" android:paddingBottom="5sp">
+                <Button android:paddingRight="10sp" android:paddingLeft="54sp" android:gravity="left|center_vertical" android:id="@+id/btChoice" android:text="Buttonasdasd" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

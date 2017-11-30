@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question21" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="0" value="0">
+        <tip><![CDATA[Wrong.The correct answer is Garbage value]]></tip>
+      </choice>
+      <choice title=" garbage value" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="compiler error" value="0">
+        <tip><![CDATA[Wrong. The correct answer is Garbage value]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question22" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="Hello " value="0">
+        <tip><![CDATA[Wrong.It will throw a complier error :int cannot be converted to boolean]]></tip>
+      </choice>
+      <choice title="Empty Output " value="0">
+        <tip><![CDATA[Wrong.It will throw a complier error :int cannot be converted to boolean]]></tip>
+      </choice>
+      <choice title=" Compiler error" value="1">
+        <tip><![CDATA[Correct.It will throw a complier error :int cannot be converted to boolean]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <question title="question23" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="Class " value="0">
+        <tip><![CDATA[Wrong.Object of class istream that represents the standard input stream oriented to narrow characters (of type char ).]]></tip>
+      </choice>
+      <choice title="Object " value="1">
+        <tip><![CDATA[Correct.Object of class istream that represents the standard input stream oriented to narrow characters (of type char ).]]></tip>
+      </choice>
+      <choice title="Package " value="0">
+        <tip><![CDATA[Wrong.Object of class istream that represents the standard input stream oriented to narrow characters (of type char ).]]></tip>
+      </choice>
+    </choices>
+    </question>
+	<question title="question24" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="1 " value="0">
+        <tip><![CDATA[Wrong.There are streams that are automatically created when executing a program. They are stdin, stdout and stderr.]]></tip>
+      </choice>
+      <choice title="2 " value="1">
+        <tip><![CDATA[Correct.There are streams that are automatically created when executing a program. They are stdin, stdout and stderr.]]></tip>
+      </choice>
+      <choice title="3" value="0">
+        <tip><![CDATA[Wrong.There are streams that are automatically created when executing a program. They are stdin, stdout and stderr.]]></tip>
+      </choice>
+    </choices>
+    </question>
+</questions>

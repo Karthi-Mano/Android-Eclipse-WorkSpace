@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+<h3>Example of Oops</h3>
+public class ParentClass {  
+    public ParentClass() {  
+        Console.WriteLine("Parent Constructor.");  
+    }  
+    public void print() {  
+        Console.WriteLine("I'm a Parent Class.");  
+    }  
+}  
+public class ChildClass: ParentClass {  
+    public ChildClass() {  
+        Console.WriteLine("Child Constructor.");  
+    }  
+    public static void Main() {  
+        ChildClass child = new ChildClass();  
+        child.print();  
+    }  
+}  
+Output
+Parent Constructor.
+Child Constructor.
+I'm a Parent Class.
+</pre>
+</body>
+</html>

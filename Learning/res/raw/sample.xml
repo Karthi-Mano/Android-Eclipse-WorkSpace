@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question03" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title=" " value="">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title=" " value="">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title=" " value="">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+ </questions>

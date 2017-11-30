@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainQuestionTipLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:paddingBottom="35sp"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    android:paddingTop="10sp" >
+
+	<LinearLayout
+	    android:id="@+id/tipLayout"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="vertical"
+	    android:paddingBottom="10sp"
+	    android:paddingLeft="5sp"
+	    android:paddingRight="5sp"
+	    android:paddingTop="10dp" >
+
+		<android.webkit.WebView
+		    android:id="@+id/wbTip"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="20dp"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center" >
+</android.webkit.WebView>
+	</LinearLayout>
+</RelativeLayout>

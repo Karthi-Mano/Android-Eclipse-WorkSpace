@@ -1,0 +1,29 @@
+import java.util.Iterator;
+import java.util.Vector;
+
+public class Square extends Shape{
+
+	//float Area;
+	
+	@Override
+	public void computeArea() {
+		// TODO Auto-generated method stub
+		float distance = (this.Points.elementAt(0).getX()) - (this.Points.elementAt(1).getX());
+		this.Area = distance*distance;
+		
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println("Square Area: " + this.Area );
+		
+			for (int i = 0 ; i< this.Points.size();i++)	
+			{
+			System.out.println("Coordinates of Square " +"X=" + this.Points.elementAt(i).getX()+ " Y="+ this.Points.elementAt(i).getY());
+		
+			}
+		}
+
+
+}

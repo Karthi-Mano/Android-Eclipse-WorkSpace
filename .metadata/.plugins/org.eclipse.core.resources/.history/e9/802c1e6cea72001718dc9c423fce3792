@@ -1,0 +1,221 @@
+package com.stmarys.quiz.views;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.StringTokenizer;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.text.Html;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.webkit.WebView;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.movisol.questionwizard.applicationcontroller.ApplicationController;
+import com.movisol.questionwizard.entities.Choice;
+import com.movisol.questionwizard.entities.ChoiceQuestion;
+import com.movisol.questionwizard.entities.Question;
+import com.movisol.questionwizard.entities.QuestionType;
+import com.movisol.questionwizard.interfaces.ScreenViewable;
+import com.stmarys.learning.CppSyntaxScreenActivity;
+import com.stmarys.learning.ProgramActivity;
+import com.stmarys.learning.R;
+
+public class ResultsView extends RelativeLayout implements OnClickListener, ScreenViewable{
+	private ApplicationController ac = ApplicationController.getInstance();
+	public static final String MY_PREFS_NAME = "y";
+	private Button progButton;
+	private String topicCode;
+	private boolean unlockLevel;
+	private int levelUnlockCode;
+	//private  Context context;
+	private SharedPreferences sharedPrefs,levelLockSharePref;
+	public ResultsView(Context context) {
+		
+		super(context);
+		loadResultView(context);
+		
+	}
+	/*protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.resultview);
+		progButton = (Button)findViewById(R.id.progButton);
+	}*/
+	
+	private void loadResultView(Context context)
+	{
+		
+		int result=calculateResults();
+		topicCode = "shared"+ ac.getTopicCode();
+		//To match with our own enumeration
+		sharedPrefs = context.getSharedPreferences("pointsSP" , Context.MODE_PRIVATE);
+		SharedPreferences.Editor editor = sharedPrefs.edit();
+		editor.putInt(topicCode, result);
+		editor.commit();
+//		sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+		levelUnlockCode = Integer.parseInt(ac.getTopicCode());
+		levelLockSharePref = context.getSharedPreferences("levelSP" , Context.MODE_PRIVATE);
+		SharedPreferences.Editor levelEditor = levelLockSharePref.edit();
+		levelEditor.putBoolean(key, value)(topicCode, result);
+		levelEditor.commit();
+//		
+		String infService = Context.LAYOUT_INFLATER_SERVICE;
+		  
+		LayoutInflater inflator = (LayoutInflater) context.getSystemService(infService);
+		inflator.inflate(R.layout.resultview, this,true);
+		
+		//String common = "R"+String.valueOf(result);
+		
+		TextView tvTitle =  (TextView) findViewById(R.id.tvTitle);
+		
+		
+
+		TextView tvScore =  (TextView) findViewById(R.id.tvScore);
+		
+		tvScore.setText(Integer.toString(result));
+		ac.setImagePerCategory(false);
+		ac.setResultId("R"+result);
+
+		
+	}
+	
+public int calculateResults() {
+		
+		List<Question> questionList = ac.getQuestions();
+		Iterator<Question> it = questionList.iterator();
+		
+		int correctas = 0;
+		int bonus=0;
+		int score = 0;
+		while (it.hasNext()) {
+			
+			Question q = it.next();
+			//try{
+			switch(q.getType().getType())
+			{
+				
+			case QuestionType.CHOICE:
+				ChoiceQuestion actualChoiceQuestion = (ChoiceQuestion) q;
+				if(actualChoiceQuestion.isAnswered()){
+				//	bonus=(int) actualChoiceQuestion.getRemainingBonus();
+				//	Log.e("Bonus:" ,Integer.toString(bonus));
+				correctas += Integer.parseInt(actualChoiceQuestion.getSelectedValue().getValue());
+				//correctas = correctas+ bonus;
+				}else
+				{
+					correctas=correctas+0;
+				}
+				break;
+				}
+			/*}
+			catch(Exception e){
+				System.out.println("error:::" + e);
+				}*/ 
+		}
+		
+		
+	//	score += correctas;
+		return correctas;
+	}
+	@Override
+	public void initializeControls() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		Intent intentProgram;
+		switch(v.getId()){
+		
+		case R.id.progButton:
+			 intentProgram = new Intent(getContext(), ProgramActivity.class);
+			 intentProgram.putExtra("topicCode",ac.getTopicCode());
+			 ((Activity)getContext()).startActivity(intentProgram);
+			// startActivity(intentProgram);
+		break;
+		default:
+			break;
+	
+		
+	}
+
+	
+/*	public int calculateResults() {
+		
+		List<Question> questionList = ac.getQuestions();
+		Iterator<Question> it = questionList.iterator();
+		List<Integer> valuesArray;
+		List<Integer> resultsArray = new ArrayList<Integer>();
+		int max = 0;
+		int pos = 0;
+		while (it.hasNext()) {
+			ChoiceQuestion actualQuestion = (ChoiceQuestion) it.next();
+			
+			
+			valuesArray = extractSeparatedValues(actualQuestion.getSelectedValue());
+			
+			for(int i = 0; i < valuesArray.size(); i++)
+			{
+				if(resultsArray.size() < i+1)
+				{
+					resultsArray.add(0);
+				}
+				
+				resultsArray.set(i,resultsArray.get(i)+valuesArray.get(i));
+				
+				if(resultsArray.get(i) > max)
+				{
+					max = resultsArray.get(i);
+					pos = i;
+				}
+			}
+		}
+
+		return pos;
+
+	}
+
+	private List<Integer> extractSeparatedValues(Choice selectedValue) {
+		
+		List<Integer> values = new ArrayList<Integer>();
+		
+		String tmp = selectedValue.getValue();
+		
+		StringTokenizer st = new StringTokenizer(tmp, ",");
+
+		while(st.hasMoreElements())
+		{
+			values.add(Integer.parseInt(st.nextElement().toString()));
+		}
+		
+		return values;
+	}
+
+	@Override
+	public void initializeControls() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+*/
+}
+}

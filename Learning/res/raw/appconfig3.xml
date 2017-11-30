@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question31" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="Prints 1 to 9" value="1">
+        <tip><![CDATA[Correct. The statement in the IF block executes untill the condition is false.]]></tip>
+      </choice>
+      <choice title=" Prints 0 to 8" value="0">
+        <tip><![CDATA[Wrong. The If block is executed untill the condition is false.]]></tip>
+      </choice>
+      <choice title="Prints 2 to 9 " value="0">
+        <tip><![CDATA[Wrong. The If block is executed untill the condition is false.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question32" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="There is a syntax error on line 1." value="0">
+        <tip><![CDATA[Wrong.In Line 1 you are declaring a Class.]]></tip>
+      </choice>
+      <choice title="There are syntax errors on lines 1, 6, and 8" value="0">
+        <tip><![CDATA[Wrong. Correct option is C .While loop is infinite. Every While loop must have a teminating condition]]></tip>
+      </choice>
+      <choice title="There is a syntax error on line 6 " value="1">
+        <tip><![CDATA[Correct. While loop is infinite. Every While loop must have a teminating condition.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question33" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title=" First" value="0">
+        <tip><![CDATA[Wrong. X value does not match with the case value.]]></tip>
+      </choice>
+      <choice title=" Second" value="0">
+        <tip><![CDATA[Wrong.X value does not match with the case value.]]></tip>
+      </choice>
+      <choice title="Fourth " value="1">
+        <tip><![CDATA[Correct. X value matches with the case value, 8%5 is 3.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question34" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title=" ok" value="0">
+        <tip><![CDATA[Wrong. THe COrrect answer is i ok]]></tip>
+      </choice>
+      <choice title="i ok " value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="PI undefined " value="0">
+        <tip><![CDATA[Wrong.THe COrrect answer is i ok]]></tip>
+      </choice>
+    </choices>
+  </question>
+  </questions>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <question title="question01" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title=" conditional operator" value="0">
+        <tip><![CDATA[Wrong.The scope operator "::" is used to define namespaces in C++]]></tip>
+      </choice>
+      <choice title=" ternary operator" value="0">
+        <tip><![CDATA[Wrong.The scope operator "::" is used to define namespaces in C++.]]></tip>
+      </choice>
+      <choice title=" scope operator" value="1">
+        <tip><![CDATA[Correct.The scope operator "::" is used to define namespaces in C++]]></tip>
+      </choice>
+     </choices>
+  </question>
+  <question title="question02" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="pkg" value="0">
+        <tip><![CDATA[Wrong. "package" is the keyword in java used to define package. ]]></tip>
+      </choice>
+      <choice title="pkg" value="0">
+        <tip><![CDATA[Wrong. "package" is the keyword in java used to define package.]]></tip>
+      </choice>
+      <choice title="package" value="1">
+        <tip><![CDATA[Correct. "package" is the keyword in java used to define package. ]]></tip>
+      </choice>
+     </choices>
+  </question>
+  <question title="question03" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title=" import pkg." value="0">
+        <tip><![CDATA[Wrong. To import an entire package we use import.packageName.* ]]></tip>
+      </choice>
+      <choice title="Import pkg." value="0">
+        <tip><![CDATA[Wrong. To import an entire package we use import.packageName.* ]]></tip>
+      </choice>
+      <choice title="import pkg.* " value="1">
+        <tip><![CDATA[Correct. To import an entire package we use import.packageName.* ]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <question title="question04" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="char*" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "char**"]]></tip>
+      </choice>
+      <choice title="int" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "char**"]]></tip>
+      </choice>
+      <choice title="char**" value="1">
+        <tip><![CDATA[Correct.]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <!-- <question title="question05" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="*/ Comments */" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "/* Comment */"]]></tip>
+      </choice>
+      <choice title=" ** Comment **" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "/* Comment */"]]></tip>
+      </choice>
+      <choice title=" /* Comment */ " value="1">
+        <tip><![CDATA[Correct.]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+</questions>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainChoiceQuestionLayout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="top|center_horizontal" >
+    <TextView android:text="TextView" android:layout_width="fill_parent" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_height="wrap_content" android:id="@+id/tvTitle" android:gravity="center" android:paddingTop="55dp" android:height="190dp"></TextView>
+	<LinearLayout 
+	    android:layout_below="@+id/tvTitle"
+		android:layout_width="fill_parent" android:id="@+id/choicesLayout" android:paddingLeft="5dp" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" android:paddingTop="10dp">
+		<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/choiceLayout" android:gravity="center" android:paddingRight="5dp">
+			<Button android:id="@+id/btChoice" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Me gusta" android:paddingLeft="10dp" android:paddingRight="10dp" android:gravity="center"></Button>
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

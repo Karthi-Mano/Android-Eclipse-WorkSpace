@@ -1,0 +1,11 @@
+import java.util.Vector;
+
+public interface Shape {
+	
+public Vector<Position> Points = new Vector<Position>;
+public Color colorObj = new Color();
+
+public void print();
+
+
+}

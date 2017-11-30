@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <question title=[CDATA["<pre>What does the following C#.NET code snippet will print?
+int i = 0, j = 0; 
+
+label:
+    i++;
+    j+=i;
+if (i < 10)
+{
+    Console.Write(i + " ");
+    goto label; 
+}</pre>"]] type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="Rest in peace" value="10,0,0,0,0,0,0">
+        <tip><![CDATA[As the wise man said:<br/> "Classics never die".]]></tip>
+      </choice>
+      <choice title="&lt;/life&gt;" value="0,0,0,10,0,0,0">
+        <tip><![CDATA[Let no one say that you leave your tags open.]]></tip>
+      </choice>
+      <choice title="Game Over" value="0,10,0,0,0,0,0">
+        <tip><![CDATA[It is a shame not to have infinite lives. Right?]]></tip>
+      </choice>
+      <choice title="I should not have lost those life points" value="0,0,10,0,0,0,0">
+        <tip><![CDATA[Next time, use loaded dice.<br/> It's cheating, but the occasion calls for it.]]></tip>
+      </choice>
+      <choice title="I have seen things you would not believe." value="0,0,0,0,10,0,0">
+        <tip><![CDATA[C-beams glitter in the dark near the Tanhauser gate?]]></tip>
+      </choice>
+    </choices>
+    <preQuestionTip><![CDATA[Let's start from the end.]]></preQuestionTip>
+  </question>
+  <question title="To a (presumably) deserted island you would take..." type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="My Sailor Moon costume" value="0,0,0,0,0,10,0">
+        <tip><![CDATA[It is always useful in desperate situations.]]></tip>
+      </choice>
+      <choice title="A good book" value="10,0,0,0,0,0,0">
+        <tip><![CDATA[You will die from inertness, but remain intellectual until the end.]]></tip>
+      </choice>
+      <choice title="A satellite phone with an internet connection" value="0,0,0,10,0,0,0">
+        <tip><![CDATA[That's how you do it!<br/> You are the only one that chose something that may help you escape... or maybe you just want to keep your facebook updated.]]></tip>
+      </choice>
+      <choice title="My light saber" value="0,0,0,0,10,0,0">
+        <tip><![CDATA[Swiss army knife of the new generation.<br/> It can be used to fight for freedom as well as open a coconut.]]></tip>
+      </choice>
+      <choice title="Dynamite to blow up hatches" value="0,0,0,0,0,0,10">
+        <tip><![CDATA[Good choice, not all islands are like the one on Lost, but is better to be safe than sorry...]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="What goes around..." type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="...comes around" value="10,0,0,0,0,0,0">
+        <tip><![CDATA[Grandmothers are always right.]]></tip>
+      </choice>
+      <choice title="...has 5 dexterity" value="0,0,10,0,0,0,0">
+        <tip><![CDATA[I just hope he does not carry an axe in his hand, who knows where it may end up.]]></tip>
+      </choice>
+      <choice title="...is addicted to vicodin" value="0,0,0,0,0,0,10">
+        <tip><![CDATA[Has also really bad luck.]]></tip>
+      </choice>
+      <choice title="...has mental powers" value="0,0,5,0,5,5,0">
+        <tip><![CDATA[Also founded the Xavier school for Gifted Youngsters.]]></tip>
+      </choice>
+      <choice title="...has the &quot;W&quot; broken" value="0,10,0,0,0,0,0">
+        <tip><![CDATA[One or the other, either changes the keyboard or becomes a clicker.]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="A special night for you is:" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="Music, candles, romantic dinner..." value="10,0,0,0,0,0,0">
+        <tip><![CDATA[Not so special... everyone does that once in a while.]]></tip>
+      </choice>
+      <choice title="A Doraemon marathon" value="0,0,0,0,0,10,5">
+        <tip><![CDATA[That marathon does require endurance and mental preparation...]]></tip>
+      </choice>
+      <choice title="Halo Night!" value="0,10,0,0,0,0,5">
+        <tip><![CDATA[Is there something more fun than to kill people with plasma grenades?]]></tip>
+      </choice>
+      <choice title="Kill werewolves with my Ventrue" value="0,0,10,0,0,0,0">
+        <tip><![CDATA[Death and destruction, but with style.]]></tip>
+      </choice>
+      <choice title="Reach the last level of a hacklab" value="0,0,0,10,0,0,0">
+        <tip><![CDATA[Also, you will be doing it with a Spectrum.]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="What would you do in a street fight?" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="Bunshin no jutsu!" value="0,0,0,0,0,10,0">
+        <tip><![CDATA[Five against one is a lot more fair.<br/> MWA HA HA HA]]></tip>
+      </choice>
+      <choice title="I switch between 5 and 2 which is the high kick" value="0,10,0,0,0,0,0">
+        <tip><![CDATA[If it fails, hook to the right and then punch. <br />Hadoooou-ken!]]></tip>
+      </choice>
+      <choice title="Teletransport Now!" value="0,0,0,0,10,0,5">
+        <tip><![CDATA[Scotty for Christ's sake, don't hurry so much next time.]]></tip>
+      </choice>
+      <choice title="I roll a dodge" value="0,0,10,0,0,0,0">
+        <tip><![CDATA[I had to roll perception before entering that alley.]]></tip>
+      </choice>
+      <choice title="I run and call the police" value="10,0,0,0,0,0,0">
+        <tip><![CDATA[Not a bad option as long as you run enough...]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="If you bought a computer it would be..." type="choice" mandatory="true" category="" key="Q6">
+    <choices>
+      <choice title="A mac" value="0,0,0,0,0,5,0">
+        <tip><![CDATA[Design and S-T-Y-L-E.]]></tip>
+      </choice>
+      <choice title="A laptop" value="0,0,5,0,0,0,5">
+        <tip><![CDATA[It is essential to be able to<br/> take it everywhere.]]></tip>
+      </choice>
+      <choice title="A desktop" value="5,5,0,0,0,0,0">
+        <tip><![CDATA[Why do you want a laptop if you only use it at home?]]></tip>
+      </choice>
+      <choice title="Top notch, but with Linux" value="0,0,0,10,0,0,0">
+        <tip><![CDATA[Say yes, Windows users deserve to die.<br/> Slowly.<br/> Painfully.]]></tip>
+      </choice>
+      <choice title="A Hal9000. Of course" value="0,0,0,0,10,0,0">
+        <tip><![CDATA[Maybe a potential murderer, but lets see who has one like it.]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="Your ringtone of choice is:" type="choice" mandatory="true" category="" key="Q7">
+    <choices>
+      <choice title="The Monkey Island midi" value="0,10,0,0,0,0,0">
+        <tip><![CDATA[Also, if a chick recognizes it, you would find out who the mother of your children is going to be.]]></tip>
+      </choice>
+      <choice title="Heidi's song" value="0,0,0,0,0,10,0">
+        <tip><![CDATA[The bad thing is that when the cell phone rings, you loose all chances to make out.]]></tip>
+      </choice>
+      <choice title="Any, as long as it is discrete." value="0,0,5,0,0,0,0">
+        <tip><![CDATA[Don't tell me. <br/>You hate being looked at as if you were a freak.]]></tip>
+      </choice>
+      <choice title="The FRIENDS theme song" value="0,0,0,0,0,0,10">
+        <tip><![CDATA[Want it or not, it is so cheerful that it brightens your day.]]></tip>
+      </choice>
+      <choice title="Lord Vader's imperial march" value="0,0,0,0,10,0,0">
+        <tip><![CDATA[Confess, its the ring you set for your boss.]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="Your friends call you to..." type="choice" mandatory="true" category="" key="Q8">
+    <choices>
+      <choice title="... fix their computer" value="0,0,0,10,0,0,0">
+        <tip><![CDATA[You should start <br/>charging the repairs,<br/> you are not a NGO.]]></tip>
+      </choice>
+      <choice title="... stay and have a drink" value="10,0,0,0,0,0,0">
+        <tip><![CDATA[Make sure they are not doing it so you pay for the rounds.]]></tip>
+      </choice>
+      <choice title="... scrounge a dungeon" value="0,5,5,0,0,0,0">
+        <tip><![CDATA[To the axes!]]></tip>
+      </choice>
+      <choice title="... have a TV show marathon" value="0,0,0,0,0,5,10">
+        <tip><![CDATA[The best way to socialize is to laugh at other people's problems.]]></tip>
+      </choice>
+      <choice title="... watch Steven Spielberg's latest" value="0,0,0,0,0,0,0">
+        <tip><![CDATA[Ah, but does Spielberg still make movies?]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="The hardest thing you have ever done is..." type="choice" mandatory="true" category="" key="Q9">
+    <questionTip><![CDATA[Not a chance in hell. I don't believe it]]></questionTip>
+    <choices>
+      <choice title="Understand the ending of Akira and Evangelion" value="0,0,0,0,0,10,0" />
+      <choice title="Program Quake in assembler" value="0,5,0,10,0,0,0" />
+      <choice title="Follow the &quot;Lost&quot; timeline" value="0,0,0,0,0,0,10" />
+      <choice title="Get a 9 from rolling 10 dice" value="0,0,10,0,0,0,0" />
+      <choice title="Fix my time machine" value="0,0,0,0,5,0,0" />
+    </choices>
+  </question>
+  <question title="There is no place like..." type="choice" mandatory="true" category="" key="Q10">
+    <choices>
+      <choice title="...Dalaran" value="0,5,0,0,0,0,0">
+        <tip><![CDATA[The time you can save thanks to the portals, right?]]></tip>
+      </choice>
+      <choice title="...Endor" value="0,0,0,0,10,0,0">
+        <tip><![CDATA[Forests with living beings that look like stuffed animals as far as the eye can see.]]></tip>
+      </choice>
+      <choice title="...home" value="5,0,0,0,0,0,0">
+        <tip><![CDATA[TV, beer, couch. <br/>What else could I ask for?]]></tip>
+      </choice>
+      <choice title="...Japan" value="0,0,0,0,0,5,0">
+        <tip><![CDATA[What you would give to live there.]]></tip>
+      </choice>
+      <choice title="...127.0.0.1" value="0,0,0,10,0,0,0">
+        <tip><![CDATA[10 print Home <br/>20 print Sweet<br/>  30 goto 10]]></tip>
+      </choice>
+    </choices>
+  </question>
+</questions>

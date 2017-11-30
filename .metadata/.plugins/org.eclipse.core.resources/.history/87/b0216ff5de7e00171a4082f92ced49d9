@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+<setting key="QWRandomizeQuestions"><![CDATA[true]]></setting>
+<setting key="QWRandomizeQuestionCount"><![CDATA[7]]></setting>
+<setting key="QWProgressBarMaximum"><![CDATA[4]]></setting>
+<setting key="FB_APP_ID"><![CDATA[1111]]></setting>
+<setting key="SKU"><![CDATA[learning]]></setting>
+<setting key="QWNavigationDisabled "><![CDATA[true]]></setting>
+<setting key="PaddingTopTabTestHdpi"><![CDATA[158]]></setting>
+<setting key="PaddingTopTabTestMdpi"><![CDATA[112]]></setting>
+<setting key="QWFreeQuestionFilterEnabled"><![CDATA[false]]></setting>
+ <setting key="ShowSettings"><![CDATA[false]]></setting>
+ <setting key="hideAds"><![CDATA[true]]></setting>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<setting key="hideFacebook"><![CDATA[true]]></setting>
+<setting key="hideShare"><![CDATA[true]]></setting>
+<setting key="hideCreditsLink"><![CDATA[true]]></setting>
+</settings>

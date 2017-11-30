@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+<h3>Example of Oops</h3> 
+package com.journaldev.java.examples1;
+class SuperClassA {
+	public void foo(){
+		System.out.println("SuperClassA");
+	}
+}
+
+class SubClassB extends SuperClassA{
+	public void bar(){
+		System.out.println("SubClassB");
+	}
+}
+public class Test {
+	public static void main(String args[]){
+		SubClassB a = new SubClassB();
+		a.foo();
+		a.bar();
+	}
+}
+</pre>
+</body>
+</html>

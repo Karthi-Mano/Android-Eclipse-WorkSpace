@@ -1,0 +1,20 @@
+import java.util.Iterator;
+import java.util.Vector;
+
+public class Square implements Shape{
+	public Vector<Position> Points;
+	public void print() {
+		// TODO Auto-generated method stub
+		System.out.println("Color Of Square(R G B): " + this.colorObj.getR()+" "+  this.colorObj.getG()+" " + this.colorObj.getB()+" ");
+		
+			for (int i = 0 ; i< this.Points.size();i++)	
+			{
+			System.out.println("Coordinates of Square " +"X=" + this.Points.elementAt(i).getX()+ " Y="+ this.Points.elementAt(i).getY());
+		
+			}
+		}
+
+		
+
+
+}

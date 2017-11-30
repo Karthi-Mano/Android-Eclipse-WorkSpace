@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<literals>
+  <literal key="LanguageISOCode"><![CDATA[en]]></literal>
+  <literal key="applicationNamePlus"><![CDATA[[[APPNAME]]+]]></literal>
+  <literal key="appReviewURL"><![CDATA[itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=[[APPSTOREID]]]]></literal>
+  <literal key="askForReviewTitle"><![CDATA[Enjoying "[[APPNAME]]"?]]></literal>
+  <literal key="askForReviewMessage"><![CDATA[If so, please rate this update with 5 stars on the AppStore so we can keep the updates coming.]]></literal>
+  <literal key="askLaterReview"><![CDATA[Remind me later]]></literal>
+  <literal key="writeReview"><![CDATA[Yes, rate it!]]></literal>
+  <literal key="neverAskAgainReview"><![CDATA[Don't ask again]]></literal>
+  <literal key="start"><![CDATA[Start]]></literal>
+  <literal key="continue"><![CDATA[Continue]]></literal>
+  <literal key="credits"><![CDATA[Credits]]></literal>
+  <literal key="share"><![CDATA[Share]]></literal>
+  <literal key="menu"><![CDATA[Quiz]]></literal>
+  <literal key="next"><![CDATA[Next]]></literal>
+  <literal key="previous"><![CDATA[Previous]]></literal>
+  <literal key="result"><![CDATA[Results]]></literal>
+  <literal key="back"><![CDATA[Return]]></literal>
+  <literal key="loading"><![CDATA[Loading, please wait...]]></literal>
+  <literal key="tapToContinue"><![CDATA[]]></literal>
+  <literal key="loadingShort"><![CDATA[Loading...]]></literal>
+  <literal key="secondsAgo"><![CDATA[%d seconds ago]]></literal>
+  <literal key="secondAgo"><![CDATA[%d second ago]]></literal>
+  <literal key="minutesAgo"><![CDATA[%d minutes ago]]></literal>
+  <literal key="minuteAgo"><![CDATA[%d minute ago]]></literal>
+  <literal key="hoursAgo"><![CDATA[%d hours ago]]></literal>
+  <literal key="hourAgo"><![CDATA[%d hour ago]]></literal>
+  <literal key="yesterday"><![CDATA[yesterday]]></literal>
+  <literal key="daysAgo"><![CDATA[%d days ago]]></literal>
+  <literal key="dayAgo"><![CDATA[%d day ago]]></literal>
+  <literal key="monthsAgo"><![CDATA[%d moths ago]]></literal>
+  <literal key="monthAgo"><![CDATA[%d moth ago]]></literal>
+  <literal key="fewSecondsAgo"><![CDATA[a few seconds ago]]></literal>
+  <literal key="transactionsuccess"><![CDATA[The transaction was completed successfully.]]></literal>
+  <literal key="transactionfail"><![CDATA[The transaction couldn't be completed.]]></literal>
+  <literal key="later"><![CDATA[Later]]></literal>
+  <literal key="iWantIt"><![CDATA[I Want It]]></literal>
+  <literal key="buy"><![CDATA[Buy]]></literal>
+  <literal key="record"><![CDATA[You've reached a new RECORD!]]></literal>
+  <literal key="play"><![CDATA[Play]]></literal>
+  <literal key="rankings"><![CDATA[Ranking]]></literal>
+  <literal key="total"><![CDATA[Total]]></literal>
+  <literal key="points"><![CDATA[Points]]></literal>
+  <literal key="rightAnswers"><![CDATA[Correct]]></literal>
+  <literal key="rank"><![CDATA[Place]]></literal>
+  <literal key="bonus"><![CDATA[Bonus]]></literal>
+  <literal key="time"><![CDATA[Time]]></literal>
+  <literal key="personal"><![CDATA[Personal]]></literal>
+  <literal key="global"><![CDATA[Global]]></literal>
+  <literal key="name"><![CDATA[Name]]></literal>
+  <literal key="tapToEdit"><![CDATA[Tap to enter your name]]></literal>
+  <literal key="you"><![CDATA[You]]></literal>
+  <literal key="enternickname"><![CDATA[Insert your nickname]]></literal>
+  <literal key="allowsubmituserdata"><![CDATA[Movisol "[[APPNAME]]" wants to send your game's details to its World Ranking Server]]></literal>
+  <literal key="allow"><![CDATA[OK]]></literal>
+  <literal key="dontallow"><![CDATA[Don't Allow]]></literal>
+  <literal key="connectionrequiredranking"><![CDATA[You need an Internet connection to see the world ranking.]]></literal>
+  <literal key="connectionrequired"><![CDATA[You need an Internet connection.]]></literal>
+  <literal key="worldRanking"><![CDATA[World Ranking]]></literal>
+  <literal key="worldRankingDescription"><![CDATA[Here you can see your position in the world ranking.]]></literal>
+  <literal key="worldRankingPromotion"><![CDATA[Enter the world ranking and compete with your friends.]]></literal>
+  <literal key="personalRanking"><![CDATA[Personal Ranking]]></literal>
+  <literal key="personalRankingDescription"><![CDATA[Here you can see your personal ranking.]]></literal>
+  <literal key="nicknameupdated"><![CDATA[Your nickname has been updated.]]></literal>
+  <literal key="nosavedplays"><![CDATA[You don't have any saved games yet.]]></literal>
+  <literal key="yourPosition"><![CDATA[Your Position]]></literal>
+  <literal key="defaultNickname"><![CDATA[Player #]]></literal>
+  <literal key="nickname"><![CDATA[nickname]]></literal>
+  <literal key="lastUpdate"><![CDATA[Latest update]]></literal>
+  <literal key="noAnswer"><![CDATA[What a pity, time is over.]]></literal>
+  <literal key="moreAppsLocalHTML"><![CDATA[Visit <a href="http://www.movisol.com/?utm_source=[[SKU]]&utm_medium=AndroidApp&utm_content=Credits&utm_campaign=[[SKU]]-[[LANGUAGE]]">www.movisol.com</a> for more free Android applications]]></literal>
+  <literal key="copyrightFooter"><![CDATA[© Trademark 2011 Movisol Media S.L. 
+All Rights reserved.]]></literal>
+  <literal key="fbPrompt"><![CDATA[What's on your mind?]]></literal>
+  <literal key="shareOnFacebook"><![CDATA[Share on facebook]]></literal>
+  <literal key="publishResults"><![CDATA[Publish your result]]></literal>
+  <literal key="logout"><![CDATA[Logout]]></literal>
+  <literal key="cancel"><![CDATA[Cancel]]></literal>
+  <literal key="connectionrequiredfacebook"><![CDATA[You need an internet connection to share on Facebook.]]></literal>
+  <literal key="ok"><![CDATA[OK]]></literal>
+  <literal key="fbName"><![CDATA[[[APPNAME]]]]></literal>
+  <literal key="fbLink"><![CDATA[http://www.movisol.com/redirectiTunes.aspx?app=[[SKU]]&lang=[[LANGUAGE]]&utm_source=[[SKU]]&utm_medium=Facebook&utm_content=Share&utm_campaign=[[SKU]]-[[LANGUAGE]]]]></literal>
+  <literal key="fbMoreInfoCaption1"><![CDATA[Check it out]]></literal>
+  <literal key="fbMoreInfoText1"><![CDATA[[[APPNAME]]]]></literal>
+  <literal key="fbMoreInfoLink1"><![CDATA[http://www.movisol.com/redirectiTunes.aspx?app=[[SKU]]&lang=[[LANGUAGE]]&utm_source=[[SKU]]&utm_medium=Facebook&utm_content=Share&utm_campaign=[[SKU]]-[[LANGUAGE]]]]></literal>
+  <literal key="fbMoreInfoCaption2"><![CDATA[Facebook]]></literal>
+  <literal key="fbMoreInfoText2"><![CDATA[Movisol]]></literal>
+  <literal key="fbMoreInfoLink2"><![CDATA[http://bit.ly/MovisolFacebook]]></literal>
+  <literal key="fbImageSrc"><![CDATA[http://media.movisol.com/[[SKU]]/facebook/icon90x90.jpg]]></literal>
+  <literal key="fbImageLink"><![CDATA[http://www.movisol.com/redirectiTunes.aspx?app=[[SKU]]&lang=[[LANGUAGE]]&utm_source=[[SKU]]&utm_medium=Facebook&utm_content=Share&utm_campaign=[[SKU]]-[[LANGUAGE]]]]></literal>
+  <literal key="mailSubject"><![CDATA[Hello!]]></literal>
+  <literal key="mailBodyHighscore"><![CDATA[<p>I have been playing with this Android application and I have reached a record of [[HIGHSCORE]] points. Do you think you can beat me?</p><a href="http://www.movisol.com/redirectiTunes.aspx?app=[[SKU]]&lang=[[LANGUAGE]]&utm_source=[[SKU]]&utm_medium=AndroidApp&utm_content=Share&utm_campaign=[[SKU]]-[[LANGUAGE]]">[[APPNAME]]</a>]]></literal>
+  <literal key="mailBody"><![CDATA[I have been playing with "[[APPNAME]], [[APPSLOGAN]]" and I thought you might like it. 
+Click here to download it: 
+
+<a href="http://www.movisol.com/redirectiTunes.aspx?app=[[SKU]]&lang=[[LANGUAGE]]&utm_source=[[SKU]]&utm_medium=AndroidApp&utm_content=Share&utm_campaign=[[SKU]]-[[LANGUAGE]]">[[APPNAME]]</a>]]></literal>
+  <literal key="moreAppsUrl"><![CDATA[http://www.movisol.com/appads.aspx?app=[[SKU]]&lang=[[UILANGUAGE]]&udid=[[UDID]]&country=[[COUNTRYCODE]]&AppAdsBlack=[[APPADSCOLOR]]]]></literal>
+</literals>

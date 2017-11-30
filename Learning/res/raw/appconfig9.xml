@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question91" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="1" value="0">
+        <tip><![CDATA[Wrong.There are two kinds of classes in c++. They are absolute class and concrete class.]]></tip>
+      </choice>
+      <choice title="2" value="1">
+        <tip><![CDATA[True. There are two kinds of classes in c++. They are absolute class and concrete class.]]></tip>
+      </choice>
+      <choice title="3" value="0">
+        <tip><![CDATA[Wrong.There are two kinds of classes in c++. They are absolute class and concrete class.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question92" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="data " value="0">
+        <tip><![CDATA[Wrong. Class contains both data members and functions.]]></tip>
+      </choice>
+      <choice title="functions" value="0">
+        <tip><![CDATA[Wrong. Class contains both data members and functions.]]></tip>
+      </choice>
+      <choice title="both a and  b" value="1">
+        <tip><![CDATA[Correct. Class contains both data members and functions.]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question93" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="Contents of s1 and s2 will be exactly same." value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="The two objects will get created on the stack." value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="Contents of the two objects created will be exactly same." value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question94" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title=" Sample s = new Sample();" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="Sample s;" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="s = new Sample();" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+ <!--  <question title="question95" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="Done" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Compile error" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Runtime error" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question06" type="choice" mandatory="true" category="" key="Q6">
+    <choices>
+      <choice title="class A { int x; };" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="class B { }" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="public class A { }" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+  </questions>

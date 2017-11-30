@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+<b>
+
+Program to Computer Power Using Recursion:
+ 
+#include <iostream>
+using namespace std;
+
+int calculatePower(int, int);
+
+int main()
+{
+    int base, powerRaised, result;
+
+    cout << "Enter base number: ";
+    cin >> base;
+
+    cout << "Enter power number(positive integer): ";
+    cin >> powerRaised;
+
+    result = calculatePower(base, powerRaised);
+    cout << base << "^" << powerRaised << " = " << result;
+
+    return 0;
+}
+
+int calculatePower(int base, int powerRaised)
+{
+    if (powerRaised != 1)
+        return (base*calculatePower(base, powerRaised-1));
+    else
+        return 1;
+}
+
+Output:
+Enter base number :2
+Enter power number(positive integer): 3
+2^3 = 8
+</b>
+</pre>
+</body>
+</html>

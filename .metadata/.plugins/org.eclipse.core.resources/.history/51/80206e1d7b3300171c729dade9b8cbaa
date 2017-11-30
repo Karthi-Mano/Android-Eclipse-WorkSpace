@@ -1,0 +1,17 @@
+import java.util.Vector;
+
+public class Triangle implements Shape {
+
+	
+		public void print() {
+		// TODO Auto-generated method stub
+		System.out.println("Color Of Triangle(R G B): " + this.colorObj.getR()+" "+  this.colorObj.getG()+" " + this.colorObj.getB()+" ");
+		
+		for (int i = 0 ; i< this.Points.size();i++)	
+		{
+		System.out.println("Coordinates of Triangle " +"X=" + this.Points.elementAt(i).getX()+ " Y="+ this.Points.elementAt(i).getY());
+	
+		}
+	}
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tap_to_continue">Hier drücken, um fortzusetzen</string>
+    <string name="loading">Lädt, bitte warten...</string>
+</resources>

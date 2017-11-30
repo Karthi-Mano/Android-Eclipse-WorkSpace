@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Topic0"><h3>Main Function</h3> <p>In computer programming, an entry point is where control is transferred from the operating system to a computer program, at which place the processor enters a program or a code fragment and execution begins. In some operating systems or programming languages, the initial entry is not part of the program but of the runtime library, in which case the runtime library initializes the program and then the runtime library enters the program. In other cases, the program may call the runtime library before doing anything when it is entered for the first time, and, after the runtime library returns, the actual code of the program begins to execute.  This marks the transition from load time (and dynamic link time, if present) to run time. In many programming languages, this named point is a function called main; as a result, the entry point is often called the main function.</p> <h4> Main function representation in memory</h4> <img src="file:///android_asset/topic0.png" /></string>
+
+</resources>

@@ -1,0 +1,58 @@
+import java.util.Vector;
+
+public class TestShape {
+	
+	 public static void main(String[] args) {
+		 
+		 //Square Coordinates
+		 Position sqPos1 = new Position();
+		 sqPos1.setX(5);
+		 sqPos1.setY(5);
+		 Position sqPos2 = new Position();
+		 sqPos2.setX(7);
+		 sqPos2.setY(19);
+		 Position sqPos3 = new Position();
+		 sqPos3.setX(2);
+		 sqPos3.setY(5);
+		 Position sqPos4 = new Position();
+		 sqPos4.setX(8);
+		 sqPos4.setY(4);
+		 
+ 
+		 Shape squareObj = new Square();
+		 squareObj.Points = new Vector<Position>();
+		 squareObj.Points.addElement(sqPos1);
+		 squareObj.Points.addElement(sqPos2);
+		 squareObj.Points.addElement(sqPos3);
+		 squareObj.Points.addElement(sqPos4);
+		 squareObj.computeArea();
+		 squareObj.print();
+		 
+		 
+		 //
+		 Position triPos1 = new Position();
+		 triPos1.setX(6);
+		 triPos1.setY(4);
+		 
+		 Position triPos2 = new Position();
+		 triPos2.setX(7);
+		 triPos2.setY(9);
+		 
+		 Position triPos3 = new Position();
+		 triPos3.setX(1);
+		 triPos3.setY(1);
+		 
+		 
+		 Shape triObj = new Triangle();
+		 triObj.Points = new Vector<Position>();
+		 triObj.Points.addElement(triPos1);
+		 triObj.Points.addElement(triPos2);
+		 triObj.Points.addElement(triPos3);
+		 triObj.computeArea();
+		 triObj.print();
+		 
+		 
+		
+	 }
+
+}

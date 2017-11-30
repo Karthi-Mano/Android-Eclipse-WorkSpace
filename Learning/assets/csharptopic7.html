@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+C# also supports pointers in a limited extent. 
+Declaring a Pointer type  
+The general form of declaring a pointer type is as shown below        
+type *variable_name; 
+Where * is known as the de-reference operator. For example the following statement
+int *x ; 
+Declares a pointer variable x, which can hold the address of an int type. The reference operator (&) can be used to get the memory address of a variable. 
+int x = 100;
+The &x gives the memory address of the variable x, which we can assign to a pointer variable 
+int *ptr = & x;.
+Console.WriteLine((int)ptr) // Displays the memory address
+Console.WriteLine(*ptr) // Displays the value at the memory address.
+</pre>
+</body>
+</html>

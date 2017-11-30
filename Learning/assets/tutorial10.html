@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<p>&bull;In order for a programming language to be object-oriented, it has to enable working with classes and objects as well as the implementation and use of the fundamental object-oriented principles and concepts: inheritance, abstraction, encapsulation and polymorphism.</p>
+<p style="text-align:center;"><img src ="topic10.png"></p>
+<h4>Inheritance:</h4>
+<p>&bull;One of the most important concepts in object-oriented programming is that of inheritance.</p>
+<p>&bull; Inheritance allows us to define a class in terms of another class, which makes it easier to create and maintain an application. This also provides an opportunity to reuse the code functionality and fast implementation time.</p>
+<p>&bull;When creating a class, instead of writing completely new data members and member functions, the programmer can designate that the new class should inherit the members of an existing class. This existing class is called the base class, and the new class is referred to as the derived class.</p>
+<h4>Polymorphism: </h4>
+<p>&bull;The word polymorphism means having many forms.</p>
+<p>&bull;Typically, polymorphism occurs when there is a hierarchy of classes and they are related by inheritance.</p>
+<p>&bull;polymorphism means that a call to a member function will cause a different function to be executed depending on the type of object that invokes the function.</p>
+<h4>Abstraction: </h4>
+<p>&bull;Abstraction is the quality of dealing with ideas rather than events.</p>
+<p>&bull;A class which contains the abstract keyword in its declaration is known as abstract class.</p>
+<p>&bull;Abstract classes may or may not contain abstract methods, i.e., methods without body ( public void get(); )</p>
+<p>&bull;But, if a class has at least one abstract method, then the class must be declared abstract.</p>
+<p>&bull;If a class is declared abstract, it cannot be instantiated.</p>
+<p>&bull;To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.</p>
+<p>&bull;If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.</p>
+
+<h4>Encapsulation: </h4>
+<p>&bull;Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit.</p>
+<p>&bull; In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.</p>
+<p>To achieve encapsulation in Java −</p>
+<p>&bull;Declare the variables of a class as private.</p>
+<p>&bull;Provide public setter and getter methods to modify and view the variables values.</p>
+
+<h4>Interfaces:</h4>
+<p>&bull;An interface is defined as a syntactical contract that all the classes inheriting the interface should follow.</p> 
+<p>&bull;The interface defines the 'what' part of the syntactical contract and the deriving classes define the 'how' part of the syntactical contract.</p>
+<h4>Function overloading:</h4>
+<p>You can have multiple definitions for the same function name in the same scope. The definition of the function must differ from each other by the types and/or the number of arguments in the argument list.</p>
+<p> You cannot overload function declarations that differ only by return type.</p>
+<h4>Function Overriding:</h4>
+<p>&bull;If we inherit a class into the derived class and provide a definition for one of the base class's function again inside the derived class, then that function is said to be overridden, and this mechanism is called Function Overriding</p>
+</body>
+</html>

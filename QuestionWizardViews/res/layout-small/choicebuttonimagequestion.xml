@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainChoiceImageButtonQuestionLayout" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="top|center_horizontal">
+    <TextView android:text="TextView" android:layout_width="fill_parent" android:paddingTop="5sp" android:paddingLeft="5sp" android:paddingRight="5sp" android:layout_height="wrap_content" android:id="@+id/choiceIBQtvTitle" android:gravity="center" android:height="75sp"></TextView>
+    <TextView android:text="TextView" android:layout_height="wrap_content" android:id="@+id/tvBonusImageButton" android:gravity="center" android:layout_width="fill_parent" android:textSize="18sp" android:height="30sp" android:visibility="gone"></TextView>
+    <TableLayout android:layout_width="fill_parent" android:id="@+id/tableLayout1" android:layout_height="fill_parent" android:gravity="center" android:paddingBottom="60dp" android:paddingTop="5sp">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:gravity="center" android:layout_height="wrap_content" android:paddingBottom="10dp">
+            <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp">
+                <ImageButton android:id="@+id/ib1" android:tag="ib1" android:layout_width="80dp" android:layout_height="80dp" android:background="@drawable/icon" android:visibility="gone"></ImageButton>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/relativeLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@+id/ib2" android:layout_height="80dp" android:tag="ib2" android:background="@drawable/icon" android:visibility="gone" android:layout_width="80dp"></ImageButton>
+            </RelativeLayout>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+            <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout3" android:layout_width="wrap_content" android:paddingRight="10dp">
+                <ImageButton android:id="@+id/ib3" android:tag="ib3" android:layout_width="80dp" android:layout_height="80dp" android:background="@drawable/icon" android:visibility="gone"></ImageButton>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/relativeLayout4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@+id/ib4" android:tag="ib4" android:layout_width="80dp" android:layout_height="80dp" android:background="@drawable/icon" android:visibility="gone"></ImageButton>
+            </RelativeLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

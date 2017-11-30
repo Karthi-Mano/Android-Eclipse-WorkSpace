@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+The string type represents a sequence of zero or more Unicode characters. string is an alias for String in the .NET Framework
+
+<b>Example:</b>
+class SimpleStringTest 
+{
+   static void Main()
+   {
+      string a = "\u0068ello ";
+      string b = "world";
+      Console.WriteLine( a + b );
+      Console.WriteLine( a + b == "Hello World" ); // == performs a case-sensitive comparison
+   }
+}
+/* Output:
+    hello world
+    False
+ */
+ </pre>
+</body>
+</html>

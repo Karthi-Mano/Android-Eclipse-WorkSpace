@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question11" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="3" value="0">
+        <tip><![CDATA[Wrong. There are 5 types ,they are single, Multiple, Hierarchical, Multilevel, Hybrid]]></tip>
+      </choice>
+      <choice title="4" value="0">
+        <tip><![CDATA[Wrong. There are 5 types ,they are single, Multiple, Hierarchical, Multilevel, Hybrid]]></tip>
+      </choice>
+      <choice title="5" value="1">
+        <tip><![CDATA[Correct. There are 5 types ,they are single, Multiple, Hierarchical, Multilevel, Hybrid]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question12" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="Use the existing functionality of base class." value="0">
+        <tip><![CDATA[Wrong. Both A and B are correct]]></tip>
+      </choice>
+      <choice title="Overrride the existing functionality of base class" value="0">
+        <tip><![CDATA[Wrong. Both A and B are correct]]></tip>
+      </choice>
+      <choice title="Both A and B" value="1">
+        <tip><![CDATA[Correct. Inheritance helps in using the same functionality of base class or you can override it.]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question13" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="create a class" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="create a hierarchy of classes" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title=" access methods" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question14" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="class manager extends salary {}" value="0">
+        <tip><![CDATA[Wrong.Interfaces are implemented in a class through implements keyword]]></tip>
+      </choice>
+      <choice title=" class manager implements salary {} " value="1">
+        <tip><![CDATA[Correct. Interfaces are implemented in a class through implements keyword]]></tip>
+      </choice>
+      <choice title=" class manager imports salary {}" value="0">
+        <tip><![CDATA[Wrong.Interfaces are implemented in a class through implements keyword]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <!-- <question title="question15" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="Base " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Derived " value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="Compile error" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+ </questions>

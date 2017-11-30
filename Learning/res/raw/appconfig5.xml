@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question51" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="conditional " value="1">
+        <tip><![CDATA[Correct.]]></tip>
+      </choice>
+      <choice title="relational " value="0">
+        <tip><![CDATA[Wrong. The correct answer is "conditional"]]></tip>
+      </choice>
+      <choice title=" casting operator" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question52" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title=" Array subscripting" value="0">
+        <tip><![CDATA[Wrong.]]></tip>
+      </choice>
+      <choice title="Function call " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Type cast" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question53" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="True " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="False" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Compilation fails " value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question54" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title=">= " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="!= " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="Not " value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+<!-- <question title="question55" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="BOBBA " value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title=" FAB" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title=" Error" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question56" type="choice" mandatory="true" category="" key="Q6">
+    <choices>
+      <choice title="0" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title=" Compile error" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="65535 " value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question57" type="choice" mandatory="true" category="" key="Q7">
+    <choices>
+      <choice title="GREENJEANS" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="GREEN" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="JEANS" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question> -->
+  </questions>

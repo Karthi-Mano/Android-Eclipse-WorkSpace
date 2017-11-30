@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/status_bar_background22"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InfoActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:text="Developed By:-\n\t>>GSM Developers: \n\t\t\tSaiTeja Solleti\n\t\t\tSahil Sachdeva\n\t\t\tGirish Kontham\n\t\t\tMayur Nemade"
+        android:textColor="#DDDDDD"
+        android:textColorHighlight="#000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="World Travel Guide"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="12dp"
+        android:text="Description:\n\t\tWorld Travel Guide is the must-have FREE guide for all your trips, week-ends and holidays!\n\tWherever on the planet, this amazing app simply provies the best places to spot and visit around.Make your trips and visits cool and easy everywhere with a guided tour, in any country worldwide!The world heritage will be yours!\n\tYou will discover places, monuments and museums everywhere, even next to your home! You will learn the history of your region and of all the places where you go on vacation. Google Maps will show your GPS location and the location of the points of interest easily.\n\tTraveling has never been so fun! Download now one of the best Android travel guide...for FREE!\n\n\tWorld Travel Guide is incredible everywhere in the world. Want a travel guide for USA? World travel Guide will guide you in all US states, from Texas to Florida, Illinois or Ohio. Get lost in a US city: from New York to Los Angeles by Chicago, Washington or Houston, just ask to your universal travel guide ! You live in UK, Scotland or Ireland? Discover London, Birmingham, Dublin or Leeds like never before! Any travel to Canada? Just ask your worldwide travel guide for more info about Toronto, Montréal, Calgary or Ottawa! The same in Australia, should you be in Sydney, Melbourne or Brisbane! A travel to Europe ? From Paris in France to Roma in Italia, or Madrid in Spain, no monument will have any more secrets for you!
+On the whole planet: America, Africa, Asia (China or Thailand...), from north to south,World Travel Guide is the ultimate travel guide!\n\n\n\tGuide optimized for your phone and TABLET: Galaxy S, S2, S3, S4, Ace, Tab 2, HTC M7, One, Desire, Sony Xperia, Nexus 4 and 7, LG ..
+"
+        android:textColor="#DDDDDD"
+        android:textSize="14dp" />
+
+</RelativeLayout>

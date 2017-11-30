@@ -1,0 +1,54 @@
+package com.stmarys.learning;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.text.Html;
+import android.text.Spanned;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.webkit.WebView;
+import android.widget.TextView;
+
+public class TutorialScreenActivity extends Activity {
+	
+	private WebView tutorialWebView;
+	private TextView tutorialText;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_tutorial_screen);
+		initialization();
+		//tutorialText = (TextView) findViewById(R.id.tutorialText);
+		//tutorialText.setText("jdjdjdjd");
+		//Spanned htmlAsSpanned = Html.fromHtml(getResources().getString(R.string.topic0));
+		//tutorialText.setText(htmlAsSpanned);
+	}
+
+	public void initialization(){
+		
+		tutorialWebView = (WebView)findViewById(R.id.tutorialWebView);
+		StringBuffer sb = new StringBuffer();
+		sb.append("<html><head>");
+		sb.append("</head><body>");
+		//sb.append("<div id='postQuestionTipBox'>");
+		sb.append(getResources().getString(R.string.topic0));
+		//sb.append("</div>");
+		sb.append("</body></html>");
+		tutorialWebView.getSettings().setDomStorageEnabled(true);
+		tutorialWebView.getSettings().setLoadsImagesAutomatically(true);
+		tutorialWebView.loadDataWithBaseURL(null, sb.toString(), "text/html", "utf-8",null);
+				
+		}
+
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+	    if (keyCode == KeyEvent.KEYCODE_BACK) {
+	    	 this.finish();
+	        return true;
+	    }
+
+	    return super.onKeyDown(keyCode, event);
+	}
+}

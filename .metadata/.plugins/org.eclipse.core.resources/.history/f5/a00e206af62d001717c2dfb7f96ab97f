@@ -1,0 +1,12 @@
+import java.util.Vector;
+
+public Interface Shape {
+Vector<Position> Points;
+float Area;
+
+public abstract void computeArea();
+
+public abstract void print();
+
+
+}

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<pre>
+&bull;Console.ReadLine Method ():The ReadLine method reads a line from the standard input stream
+&bull;Console.Write Method()  Writes the text representation of the specified value or values to the standard output stream
+<h4>&bull;Syntax</h4>
+using System;
+public class Example
+{
+   public static void Main()
+   {
+      Console.Clear();
+      DateTime dat = DateTime.Now;
+      Console.WriteLine("\nToday is {0:d} at {0:T}.", dat);
+      Console.Write("\nPress any key to continue... ");
+      Console.ReadLine();
+   }
+}
+
+// The example displays output like the following:
+//     Today is 10/26/2015 at 12:22:22 PM.
+//     Press any key to continue...
+</pre>
+</body>
+</html>

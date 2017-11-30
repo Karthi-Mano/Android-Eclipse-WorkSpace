@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainChoiceImageScrollQuestionLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:height="40sp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:text="TextView" >
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imgChImageScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:paddingLeft="6sp"
+        android:paddingRight="6sp"
+        android:src="@drawable/icon" >
+    </ImageView>
+
+    <ScrollView
+        android:id="@+id/scrollChoicesLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="52sp"
+        android:paddingTop="8sp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" >
+
+        <LinearLayout
+            android:id="@+id/choicesLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp" >
+
+            <LinearLayout
+                android:id="@+id/choiceLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="5sp" >
+
+                <Button
+                    android:id="@+id/btChoice"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="54sp"
+                    android:paddingRight="10sp"
+                    android:text="Buttonasdasd" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="top|center_horizontal" android:id="@+id/mainChoiceImageQuestionLayout">
+    <TextView android:text="TextView" android:layout_width="fill_parent" android:paddingLeft="5sp" android:paddingRight="5sp" android:layout_height="wrap_content" android:gravity="center" android:id="@+id/choiceIQtvTitle" android:height="70sp" android:paddingTop="2sp"></TextView>
+
+    <ImageView
+        android:id="@+id/ChoiceImageImg"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:paddingLeft="6sp"
+        android:paddingRight="6sp"
+        android:src="@drawable/icon" >
+</ImageView>
+    <ProgressBar android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent" android:paddingRight="20dp" android:paddingLeft="20dp" android:id="@+id/pbChoiceImage"></ProgressBar>
+    <TableLayout android:id="@+id/tableLayout1" android:paddingTop="5sp" android:layout_height="fill_parent" android:gravity="center" android:paddingBottom="45dp" android:layout_width="fill_parent" android:paddingLeft="5dp" android:paddingRight="5dp">
+        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:gravity="center" android:layout_width="fill_parent">
+            <LinearLayout android:id="@+id/relativeLayout1" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_marginRight="5dp" android:gravity="center">
+                <Button android:id="@+id/ChoiceImageBtn1" android:layout_height="wrap_content" android:gravity="center" android:layout_width="wrap_content"></Button>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

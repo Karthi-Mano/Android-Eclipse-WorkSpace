@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question41" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="int array[10];" value="1">
+        <tip><![CDATA[Correct. While declaring array you should mention the size of an array.]]></tip>
+      </choice>
+      <choice title="int array;" value="0">
+        <tip><![CDATA[Wrong.While declaring array you should mention the size of an array.]]></tip>
+      </choice>
+      <choice title="array{10};" value="0">
+        <tip><![CDATA[Wrong.The size of array must be enclosed with in the square brackets.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question42" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="int arr[] = new int[5]" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "int arr[] = new int[5]"]]></tip>
+      </choice>
+      <choice title=" int [] arr = new int[5]" value="0">
+        <tip><![CDATA[Wrong.The correct answer is "int arr[] = new int[5]"]]></tip>
+      </choice>
+      <choice title=" int arr[] = int [5] new" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+ </question>
+<question title="question43" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="Array elements can be of integer type only." value="0">
+        <tip><![CDATA[Wrong.Option C is correct]]></tip>
+      </choice>
+      <choice title="The rank of an Array is the total number of elements it can contain." value="0">
+        <tip><![CDATA[Wrong.Option C is correct]]></tip>
+      </choice>
+      <choice title="The default value of numeric array elements is zero." value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question44" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="2 6 " value="0">
+        <tip><![CDATA[Wrong, ar[0]and ar[1] will get the elements at poistion 1 and 2 of an array.]]></tip>
+      </choice>
+      <choice title="8" value="0">
+        <tip><![CDATA[Wrong, ar[0]and ar[1] will get the elements at poistion 1 and 2 of an array.]]></tip>
+      </choice>
+      <choice title="2 4" value="1">
+        <tip><![CDATA[Correct, ar[0]and ar[1] will get the elements at poistion 1 and 2 of an array.]]></tip>
+      </choice>
+    </choices>
+  </question>
+<!-- <question title="question45" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="foreach (int j in a.Length)" value="0">
+        <tip><![CDATA[Wrong. The correct answer is "foreach (int j in i)"]]></tip>
+      </choice>
+      <choice title="foreach (int j in a.Length -1)" value="0">
+        <tip><![CDATA[Wrong. The correct answer is "foreach (int j in i)"]]></tip>
+      </choice>
+      <choice title="foreach (int j in i)" value="1">
+        <tip><![CDATA[Correct.]]></tip>
+      </choice>
+    </choices>
+ </question> -->
+ </questions>

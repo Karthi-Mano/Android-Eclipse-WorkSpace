@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question81" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="String" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="reference of String" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+      <choice title="Object" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question82" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="a String reference" value="1">
+        <tip><![CDATA[Corret]]></tip>
+      </choice>
+      <choice title="an empty reference" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="null" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question83" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="#include&#60;ios&#62;" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="#include&#60;str&#62;" value="0">
+        <tip><![CDATA[Wrong]]></tip>
+      </choice>
+      <choice title="#include&#60;string&#62;" value="1">
+        <tip><![CDATA[Correct]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question84" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="5 " value="0">
+        <tip><![CDATA[Wrong. In the program, We are concatanating the str1 and str2 and printing it’s total length. So the length is 1.]]></tip>
+      </choice>
+      <choice title="55" value="0">
+        <tip><![CDATA[Wrong. In the program, We are concatanating the str1 and str2 and printing it’s total length. So the length is 1.]]></tip>
+      </choice>
+      <choice title="1" value="1">
+        <tip><![CDATA[Correct. In the program, We are concatanating the str1 and str2 and printing it’s total length. So the length is 1.]]></tip>
+      </choice>
+    </choices>
+  </question>
+
+  </questions>

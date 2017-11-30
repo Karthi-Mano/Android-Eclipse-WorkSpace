@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<literals>
+  <literal key="start"><![CDATA[Start]]></literal>
+  <literal key="continue"><![CDATA[Continue]]></literal>
+  <literal key="credits"><![CDATA[Credits]]></literal>
+  <literal key="share"><![CDATA[Share]]></literal>
+  <literal key="menu"><![CDATA[Quiz]]></literal>
+  <literal key="next"><![CDATA[Next]]></literal>
+  <literal key="previous"><![CDATA[Previous]]></literal>
+  <literal key="result"><![CDATA[Results]]></literal>
+  <literal key="back"><![CDATA[Return]]></literal>
+  <literal key="loading"><![CDATA[Loading, please wait...]]></literal>
+  <literal key="tapToContinue"><![CDATA[]]></literal>
+  <literal key="creditsWebBody"><![CDATA[]]></literal>
+  <literal key="moreAppsLocalHTML"><![CDATA[Visit <a href="http://www.movisol.com/?utm_source=frikitest&utm_medium=iPhoneApp&utm_content=Credits&utm_campaign=frikitest-en">www.movisol.com</a> for more free iPhone applications]]></literal>
+  <literal key="copyrightFooter"><![CDATA[Gkon55]]></literal>
+  <literal key="homeWebBody"><![CDATA[<b>Each quiz you take will have 4 questions for 1 point each. Check the achievement section to know your total score. </b><br/> You get following badges for the total score:</b><br/> Bronze Badge Score: 13 to 26 </b><br/> Silver Badge Score: 27 to 39 </b><br/> Golden Badge Score : above 39   ]]></literal>
+  <literal key="fbName"><![CDATA[||Learning]]></literal>
+  <literal key="fbLink"><![CDATA[http://bit.ly/5dXNhL]]></literal>
+  <literal key="fbMoreInfoCaption1"><![CDATA[Check it out]]></literal>
+  <literal key="fbMoreInfoText1"><![CDATA[||Learning]]></literal>
+  <literal key="fbMoreInfoLink1"><![CDATA[http://bit.ly/5dXNhL]]></literal>
+  <literal key="fbMoreInfoCaption2"><![CDATA[Facebook]]></literal>
+  <literal key="fbMoreInfoText2"><![CDATA[Stmarys]]></literal>
+  <literal key="fbMoreInfoLink2"><![CDATA[http://bit.ly/Facebook]]></literal>
+  <literal key="fbPrompt"><![CDATA[What's on your mind?]]></literal>
+  <literal key="shareOnFacebook"><![CDATA[Share on facebook]]></literal>
+  <literal key="publishResults"><![CDATA[Publish your result]]></literal>
+  <literal key="logout"><![CDATA[Logout]]></literal>
+  <literal key="cancel"><![CDATA[Cancel]]></literal>
+  <literal key="mailSubject"><![CDATA[Hello!]]></literal>
+  <literal key="mailBody"><![CDATA[<p>I have been playing with this iPhone application and I thought you might like it.</p><a href="http://www.movisol.com/redirectiTunes.aspx?app=frikitest&lang=en&utm_source=frikitest&utm_medium=iPhoneApp&utm_content=Share&utm_campaign=frikitest-en"><img src="http://media.movisol.com/frikitest/en/mailshare.jpg" alt="Freaktest" /></a>]]></literal>
+  <literal key="moreAppsUrl"><![CDATA[]]></literal>
+  <literal key="styleCSS"><![CDATA[<style type="text/css">
+
+body{
+color: #000000;
+text-align: center;
+margin:0px 0px;
+font-size: 13px; 
+font-family: Helvetica; 
+line-height: 130%;
+}
+
+
+.separator{
+height:15px;
+}
+
+/* ---- HOME ---- */
+
+#homeBox{
+font-size: 14px;
+margin:5px 5px 5px 5px;
+line-height: 130%;
+}
+
+/* ---- CREDITS ---- */
+
+#aboutBox
+{
+	color: #010101; 
+	font-size: 14px; 
+	font-family: helvetica; 
+	text-align: center; 
+}
+
+#aboutBox a
+{
+	color: #010101;
+}
+
+#localCreditsBox
+{
+	color: #010101; 
+	font-size: 14px; 
+	font-family: helvetica; 
+	text-align: center; 
+}
+
+#localCreditsBox a
+{
+	color: #010101;
+}
+
+
+
+/* ---- RESULTS ---- */ 
+
+#resultBox
+{
+font-family: MarkerFelt-Thin; 
+line-height: 150%;
+margin:5px 5px 5px 5px;
+font-size: 16px;
+display: table-cell; 
+vertical-align: middle;
+height:173px;
+color: #ffffff;
+}
+
+/* ---- TIP ---- */
+
+#postQuestionTipBox, #preQuestionTipBox {
+width: 287px; 
+height: 265px; 
+padding-left: 40px;
+padding-right: 30px;
+display: table-cell; 
+vertical-align: middle;
+font-family: Helvetica; 
+line-height: 130%;
+font-size: 16px; 
+color: #000000;
+}
+
+#preQuestionTipBox h1, #postQuestionTipBox h1
+{
+font-size:24px;
+line-height: 130%;
+}
+
+</style>]]></literal>
+</literals>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainPageMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/mainPageAdLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutMainPageBottom"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:paddingTop="130dp" >
+       <RelativeLayout 
+           android:id="@+id/textscrollviewrelativelayout"
+           android:layout_above="@+id/relativeLayout2"
+           android:layout_width="fill_parent"
+    	   android:layout_height="fill_parent"
+    	   android:gravity="top">
+           <ScrollView
+    		android:id="@+id/textscrollview"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:scrollbars="vertical"
+    		android:fillViewport="true">
+            <TextSwitcher
+	            android:id="@+id/textSwitcher1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp" >
+			    <TextView
+               		 	android:id="@+id/textView1"
+                		android:layout_width="fill_parent"
+                		android:layout_height="fill_parent"
+                		android:paddingTop="10dp"
+                		android:gravity="top|center_horizontal"
+                		android:text="TextView" />
+	   		 </TextSwitcher> 
+        </ScrollView> 
+       </RelativeLayout> 
+	   
+        
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="30sp"
+                android:paddingTop="5sp" >
+
+                <Button
+                    android:id="@+id/btnMainPageStart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnContinue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:paddingBottom="12sp"
+            android:paddingLeft="10sp" >
+
+            <Button
+                android:id="@+id/btnMainPageShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/settingsLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:paddingBottom="12sp" >
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="12sp"
+            android:paddingRight="10sp" >
+
+          <ImageButton
+                android:id="@+id/btnMainPageCredits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:visibility="invisible"
+                /> 
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

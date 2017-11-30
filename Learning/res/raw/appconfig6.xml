@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+<question title="question61" type="choice" mandatory="true" category="" key="Q1">
+    <choices>
+      <choice title="call by value" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="call by reference" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title=" call by pointer" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+<question title="question62" type="choice" mandatory="true" category="" key="Q2">
+    <choices>
+      <choice title="return type,function name" value="o">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="return type,function name,parameters" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="both a and b" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question63" type="choice" mandatory="true" category="" key="Q3">
+    <choices>
+      <choice title="True" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="False" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question64" type="choice" mandatory="true" category="" key="Q4">
+    <choices>
+      <choice title="An argument passed to a ref parameter need not be initialized first." value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="Variables passed as out arguments need to be initialized prior to being passed." value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="Pass by reference eliminates the overhead of copying large data items " value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <!-- <question title="question65" type="choice" mandatory="true" category="" key="Q5">
+    <choices>
+      <choice title="'(' and ')'" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="'{' and '{'" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="Method signatures" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+  </question>
+  <question title="question66" type="choice" mandatory="true" category="" key="Q6">
+    <choices>
+      <choice title="int funct(char x, char y);" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="double funct(char x)" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="void funct();" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+</question>
+<question title="question67" type="choice" mandatory="true" category="" key="Q7">
+    <choices>
+      <choice title="Quiz " value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="null" value="1">
+        <tip><![CDATA[]]></tip>
+      </choice>
+      <choice title="Error" value="0">
+        <tip><![CDATA[]]></tip>
+      </choice>
+    </choices>
+</question> -->
+</questions>

@@ -1,0 +1,67 @@
+import java.awt.Graphics;
+import java.util.Vector;
+
+public class Demo {
+	
+	 public static void main(String[] args) {
+		 
+		 //Square Coordinates
+		 Position sqPos1 = new Position();
+		 sqPos1.setX(4);
+		 sqPos1.setY(8);
+		 Position sqPos2 = new Position();
+		 sqPos2.setX(8);
+		 sqPos2.setY(12);
+		 Position sqPos3 = new Position();
+		 sqPos3.setX(8);
+		 sqPos3.setY(8);
+		 Position sqPos4 = new Position();
+		 sqPos4.setX(8);
+		 sqPos4.setY(4);
+		 
+		
+		 Square squObj = new Square();
+		 squObj.Points = new Vector<Position>();
+		 squObj.Points.addElement(sqPos1);
+		 squObj.Points.addElement(sqPos2);
+		 squObj.Points.addElement(sqPos3);
+		 squObj.Points.addElement(sqPos4);
+		 //
+		 squObj.colorObject.setR(200);
+		 squObj.colorObject.setG(245);
+		 squObj.colorObject.setB(211);
+		
+		 
+		 squObj.print();
+		 
+		 
+		 //Triangle Coordinates
+		 Position triPos1 = new Position();
+		 triPos1.setX(2);
+		 triPos1.setY(8);
+		 
+		 Position triPos2 = new Position();
+		 triPos2.setX(6);
+		 triPos2.setY(4);
+		 
+		 Position triPos3 = new Position();
+		 triPos3.setX(2);
+		 triPos3.setY(4);
+		 
+		 
+		 Triangle triObj = new Triangle();
+		 triObj.Points = new Vector<Position>();
+		 triObj.Points.addElement(triPos1);
+		 triObj.Points.addElement(triPos2);
+		 triObj.Points.addElement(triPos3);
+		// triangleObj.computeArea();
+		 
+		 triObj.colorObject.setR(144);
+		 triObj.colorObject.setG(255);
+		 triObj.colorObject.setB(134);
+		 triObj.print();
+		 
+
+	 }
+
+}

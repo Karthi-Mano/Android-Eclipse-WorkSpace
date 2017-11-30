@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<h3>&bull;Example of function </h3>
+<pre>
+#include <iostream>
+using namespace std;
+ int sum(int a, int b=20) {
+   int result;
+ result = a + b;
+  return (result);
+}
+int main () {
+   // local variable declaration:
+   int a = 100;
+   int b = 200;
+   int result;
+   // calling a function to add the values.
+   result = sum(a, b);
+   cout << "Total value is :" << result << endl;
+   // calling a function again as follows.
+   result = sum(a);
+   cout << "Total value is :" << result << endl;
+    return 0;
+}
+</pre>
+</body>
+</html>
