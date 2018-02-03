@@ -29,4 +29,18 @@
 <fullyQualifiedTypeName name="com.stmarys.learning.R.id"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="com.stmarys.learning.HomeActivity"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="ArrayClass"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="com.movisol.questionwizard.applicationcontroller.ApplicationController"/>
+<fullyQualifiedTypeName name="java.util.jar.Manifest"/>
+<fullyQualifiedTypeName name="android.Manifest"/>
+<fullyQualifiedTypeName name="android.Manifest.permission"/>
+<fullyQualifiedTypeName name="android.support.v4.app.ActivityCompat"/>
+<fullyQualifiedTypeName name="android.support.v4.content.ContextCompat"/>
+<fullyQualifiedTypeName name="kkk.newone"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>
